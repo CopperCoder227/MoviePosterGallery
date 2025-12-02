@@ -1,148 +1,156 @@
 [
       {
             "title": "Five Nights At Freddy's",
-            "iscore": 9.3,
-            "rating": "R",
-            "runtime": 142,
+            "iscore": 33,
+            "rating": "PG-13",
+            "runtime": 110,
             "released": [
-                  1994,
+                  2023,
                   10,
-                  14
+                  27
             ],
             "country": "USA",
             "posters": [
-                  "img/shawshank.jpg",
-                  "img/shawshank2.jpg",
-                  "img/shawshank3.jpg"
+                  "img/FNaF/Five_Nights_At_Freddy's_poster.jpeg",
+                  "img/FNaF/FNaFMovieDatePoster.webp",
+                  "img/FNaF/Freddy.jpg"
             ],
-            "imdb": "http://www.imdb.com/title/tt0111161",
-            "website": "https://www.facebook.com/ShawshankRedemptionFilm",
-            "likes": 1021,
-            "dislikes": 122,
+            "imdb": "https://www.imdb.com/title/tt4589218/",
+            "website": "https://www.bing.com/ck/a?!&&p=ddb7a9b339e41f0fdadeabac2c81b4d26e5f2366438d294bf2aefdc71480b99fJmltdHM9MTc2NDYzMzYwMA&ptn=3&ver=2&hsh=4&fclid=24d27bed-6fa4-64d2-38e2-6db36e7f6596&psq=fnafrotten+tomatoes&u=a1aHR0cHM6Ly93d3cucm90dGVudG9tYXRvZXMuY29tL20vZml2ZV9uaWdodHNfYXRfZnJlZGR5cw",
+            "likes": 18000,
+            "dislikes": 4200,
             "posterindex": 0
       },
       {
             "title": "Five Nights At Freddy's 2",
-            "iscore": 9.2,
-            "rating": "R",
-            "runtime": 175,
+            "iscore": 0.0,
+            "rating": "PG-13",
+            "runtime": 104,
             "released": [
-                  1972,
-                  3,
-                  24
+                  2025,
+                  12,
+                  5
             ],
             "country": "USA",
             "posters": [
-                  "img/godfather.jpg",
-                  "img/godfather_2.jpg",
-                  "img/godfather_3.jpg"
+                  "img/FNaF2/FNaF2Film_TheatricalPoster_29.webp",
+                  "img/FNaF2/FNF2.jpg",
+                  "img/FNaF2/faztalker.jpg"
             ],
-            "imdb": "http://www.imdb.com/title/tt0068646",
-            "website": "https://www.facebook.com/thegodfather",
-            "likes": 928,
-            "dislikes": 109,
+            "imdb": "https://www.imdb.com/title/tt30274401/",
+            "website": "https://www.bing.com/ck/a?!&&p=0ba7f938cd9eb179b04e362e80b6296962bdc7fdf2823050e76c83ff26761d3fJmltdHM9MTc2NDYzMzYwMA&ptn=3&ver=2&hsh=4&fclid=24d27bed-6fa4-64d2-38e2-6db36e7f6596&psq=fnaf+2+rotten+tomatoes&u=a1aHR0cHM6Ly93d3cucm90dGVudG9tYXRvZXMuY29tL20vZml2ZV9uaWdodHNfYXRfZnJlZGR5c18y",
+            "likes": 0,
+            "dislikes": 0,
             "posterindex": 0
       },
       {
             "title": "Wicked",
-            "iscore": 9.0,
-            "rating": "R",
-            "runtime": 202,
+            "iscore": 73,
+            "rating": "PG",
+            "runtime": 160,
             "released": [
-                  1974,
-                  12,
-                  20
+                  2024,
+                  11,
+                  22
             ],
             "country": "USA",
             "posters": [
-                  "img/godfather2.jpg",
-                  "img/godfather2_2.jpg"
+                  "img/Wicked/Wicked.jpg",
+                  "img/Wicked/wickedposter.jpg",
+                  "img/Wicked/WickedWhispers.jpg"
             ],
-            "imdb": "http://www.imdb.com/title/tt0071562",
-            "website": "https://www.facebook.com/thegodfather",
-            "likes": 855,
-            "dislikes": 99,
+            "imdb": "https://www.imdb.com/title/tt1262426/",
+            "website": "https://www.bing.com/ck/a?!&&p=203a2884359a19b1f78599a72dc698d44e780e8166de7ac7f40dc3e5aa6e7f83JmltdHM9MTc2NDYzMzYwMA&ptn=3&ver=2&hsh=4&fclid=24d27bed-6fa4-64d2-38e2-6db36e7f6596&psq=wicked+rotten+tomatoes&u=a1aHR0cHM6Ly93d3cucm90dGVudG9tYXRvZXMuY29tL20vd2lja2VkXzIwMjQ",
+            "likes": 39000,
+            "dislikes": 10000,
             "posterindex": 0
       },
       {
             "title": "Wicked For Good",
-            "iscore": 8.9,
+            "iscore": 58,
+            "rating": "PG",
+            "runtime": 137,
+            "released": [
+                  2025,
+                  11,
+                  17
+            ],
+            "country": "USA",
+            "posters": [
+                  "img/WFG/Wicked-For-Good-2025-Movie-Poster.jpg",
+                  "img/WFG/WICKEDFG.jpg",
+                  "img/WFG/WikedFG.jpg"
+            ],
+            "imdb": "https://www.imdb.com/title/tt19847976/",
+            "website": "https://www.rottentomatoes.com/m/wicked_for_good",
+            "likes": 4600,
+            "dislikes": 1600,
+            "posterindex": 0
+      },
+      {
+            "title": "Mean Girls",
+            "iscore": 66,
             "rating": "PG-13",
-            "runtime": 152,
+            "runtime": 97,
             "released": [
-                  2008,
-                  7,
-                  18
+                  2004,
+                  4,
+                  9
             ],
             "country": "USA",
             "posters": [
-                  "img/darkknight.jpg",
-                  "img/darkknight2.jpg"
+                  "img/MG/Mean_Girls_film_poster.png",
+                  "img/MG/meangirls.24x36_1024x1024.webp",
+                  "img/MG/MG.jpg"
             ],
-            "imdb": "http://www.imdb.com/title/tt0468569",
-            "website": "http://www.42entertainment.com/work/whysoserious",
-            "likes": 828,
-            "dislikes": 127,
+            "imdb": "https://www.imdb.com/title/tt0377092/",
+            "website": "https://www.rottentomatoes.com/m/mean_girls",
+            "likes": 66000,
+            "dislikes": 4200,
             "posterindex": 0
       },
       {
             "title": "Mean Girls",
-            "iscore": 8.9,
-            "rating": "R",
-            "runtime": 195,
+            "iscore": 58,
+            "rating": "PG-13",
+            "runtime": 112,
             "released": [
-                  1993,
-                  11,
-                  30
+                  2024,
+                  1,
+                  10
             ],
             "country": "USA",
             "posters": [
-                  "img/schindlerslist.jpg"
+                  "img/MGMM/Mean_girls_2024_poster.jpg",
+                  "img/MGMM/MGM.jpg",
+                  "img/MGMM/2310854-mean-girls.webp"
             ],
-            "imdb": "http://www.imdb.com/title/tt0108052",
-            "website": "https://www.uphe.com/schindlers-list",
-            "likes": 812,
-            "dislikes": 101,
-            "posterindex": 0
-      },
-      {
-            "title": "Mean Girls",
-            "iscore": 8.9,
-            "rating": "R",
-            "runtime": 195,
-            "released": [
-                  1993,
-                  11,
-                  30
-            ],
-            "country": "USA",
-            "posters": [
-                  "img/schindlerslist.jpg"
-            ],
-            "imdb": "http://www.imdb.com/title/tt0108052",
-            "website": "https://www.uphe.com/schindlers-list",
-            "likes": 812,
-            "dislikes": 101,
+            "imdb": "https://www.imdb.com/title/tt11762114/?ref_=nv_sr_srsg_4_tt_7_nm_0_in_0_q_mean%2520girls",
+            "website": "https://www.rottentomatoes.com/m/mean_girls_2024",
+            "likes": 2600,
+            "dislikes": 3900,
             "posterindex": 0
       },
       {
             "title": "The Hunger Games",
-            "iscore": 8.9,
-            "rating": "R",
-            "runtime": 195,
+            "iscore": 68,
+            "rating": "PG-13",
+            "runtime": 142,
             "released": [
-                  1993,
-                  11,
-                  30
+                  2012,
+                  3,
+                  12
             ],
             "country": "USA",
             "posters": [
-                  "img/schindlerslist.jpg"
+                  "img/THG/HG.jpg",
+                  "img/THG/mtobeiyf.avif",
+                  "img/THG/thg.webp"
             ],
-            "imdb": "http://www.imdb.com/title/tt0108052",
-            "website": "https://www.uphe.com/schindlers-list",
-            "likes": 812,
-            "dislikes": 101,
+            "imdb": "https://www.imdb.com/title/tt1392170/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_hunger%2520games",
+            "website": "https://www.rottentomatoes.com/m/the_hunger_games",
+            "likes": 134000,
+            "dislikes": 15000,
             "posterindex": 0
       },
       {
@@ -151,7 +159,7 @@
             "rating": "R",
             "runtime": 195,
             "released": [
-                  1993,
+                  2023,
                   11,
                   30
             ],
@@ -171,7 +179,7 @@
             "rating": "R",
             "runtime": 195,
             "released": [
-                  1993,
+                  2023,
                   11,
                   30
             ],
@@ -191,7 +199,7 @@
             "rating": "R",
             "runtime": 195,
             "released": [
-                  1993,
+                  2023,
                   11,
                   30
             ],
@@ -211,7 +219,7 @@
             "rating": "R",
             "runtime": 195,
             "released": [
-                  1993,
+                  2023,
                   11,
                   30
             ],
@@ -227,22 +235,24 @@
       },
       {
             "title": "The Hunger Games: Sunrise on the Reaping",
-            "iscore": 8.9,
-            "rating": "R",
-            "runtime": 195,
+            "iscore": 0,
+            "rating": "PG-13",
+            "runtime": 0,
             "released": [
-                  1993,
+                  2026,
                   11,
-                  30
+                  20
             ],
             "country": "USA",
             "posters": [
-                  "img/schindlerslist.jpg"
+                  "img/SOTR/thgsotr.jpg",
+                  "img/SOTR/50qq.jpg",
+                  "img/SOTR/thgsotrposter.jpg"
             ],
-            "imdb": "http://www.imdb.com/title/tt0108052",
-            "website": "https://www.uphe.com/schindlers-list",
-            "likes": 812,
-            "dislikes": 101,
+            "imdb": "https://www.imdb.com/title/tt32558705/",
+            "website": "https://www.rottentomatoes.com/m/the_hunger_games_sunrise_on_the_reaping",
+            "likes": 0,
+            "dislikes": 0,
             "posterindex": 0
       }
 ]

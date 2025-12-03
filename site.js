@@ -21,29 +21,30 @@
 */
 
 const vue_app = Vue.createApp({
-      // This automatically imports your movies.json file and puts it into
-      //   the variable: movies
       created() {
             fetch("movies.json")
-                  .then((response) => response.json())
-                  .then((json) => {
-                        this.movies = json;
-                  });
+                  .then(response => response.json())
+                  .then(json => this.movies = json);
       },
       data() {
             return {
-                  // This holds your movies.json data.
                   movies: [],
-                  /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
                   title: "IMDB + Cooper's Top StarWars Movies",
                   owner: "Cooper",
                   github: "https://nvlahogiannis12.github.io/NJIT-3_StarterFiles/",
             };
       },
-      methods: {
-            /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-
+      computed: {
+            groupedMovies() {
+                  return [
+                        this.movies.slice(0, 2),
+                        this.movies.slice(2, 4),
+                        this.movies.slice(4, 6),
+                        this.movies.slice(6, 12)
+                  ];
+            }
       },
+      methods: {}
 });
 
 vue_app.mount("#vue_app");

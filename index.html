@@ -33,28 +33,29 @@
 
 		<div class="main">
 
-			<div class="row">
+			<!-- Loop through groups -->
+			<div v-for="(group, g) in groupedMovies" class="group-wrapper" :class="'group-' + g">
+				<div class="row">
+					<div class="col-md-6" v-for="(movie, i) in group">
+						<div class="thumbnail">
+							<img class="poster img-fluid" :src="movie.posters[0]" />
+							<div class="imageInfo"></div>
 
-				<div class="col-md-6" v-for="(movie, i) in movies">
-					<div class="thumbnail">
+							<p class="title">{{movie.title}} ({{movie.country}})</p>
+							<p class="score"><i class="bi bi-star"></i> {{movie.iscore}}</p>
+							<p class="runtime">Runtime: {{movie.runtime}}</p>
+							<p class="released">Released: {{movie.released}} | Rated: {{movie.rating}}</p>
+							<p class="websites">Websites: <a>{{movie.imdb}}</a> | <a>{{movie.website}}</a></p>
 
-						<img class="poster img-fluid" :src="movie.posters[0]" />
-						<div class="imageInfo"></div>
-
-						<p class="title">{{movie.title}} ({{movie.country}})</p>
-						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{movie.iscore}}</p>
-						<p class="runtime">Runtime: {{movie.runtime}}</p>
-						<p class="released">Released: {{movie.released}} | Rated: {{movie.rating}}</p>
-						<p class="websites">Websites: <a> {{movie.imdb}} </a> | <a>{{movie.website}}</a></p>
-
-						<div class="social">
-							<p class="likes"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{movie.likes}}</p>
-							<p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> {{movie.dislikes}}</p>
+							<div class="social">
+								<p class="likes"><i class="bi bi-hand-thumbs-up"></i> {{movie.likes}}</p>
+								<p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> {{movie.dislikes}}</p>
+							</div>
 						</div>
 					</div>
 				</div>
-
 			</div>
+
 		</div>
 
 		<div class="footer">

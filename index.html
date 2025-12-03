@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Popular Movies</title>
+	<title>IS219 Gallery (Project 3)</title>
 
 	<!-- Our CSS File along with Boostrap, and Bootstrap Icon Styles-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,9 +14,8 @@
 	<link rel="stylesheet" type='text/css' href="style.css" />
 
 	<!-- DO NOT CHANGE ANYTHING ABOVE THIS LINE-->
-
 	<!-- Javascript Framework (e.g., vue.js) (ADD HERE) -->
-
+	<script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
 
 
 </head>
@@ -36,21 +35,21 @@
 
 			<div class="row">
 
-				<div class="col-md-6">
+				<div class="col-md-6" v-for="(movie, i) in movies">
 					<div class="thumbnail">
 
-						<img class="poster img-fluid" />
-						<div class="imageInfo">%posterindex%</div>
+						<img class="poster img-fluid" :src="movie.posters[0]" />
+						<div class="imageInfo"></div>
 
-						<p class="title">%title% (%country%)</p>
-						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> %iscore% </p>
-						<p class="runtime">Runtime: %runtime%</p>
-						<p class="released">Released: %released% | Rated: %rating%</p>
-						<p class="websites">Websites: <a> imdb </a> | <a>website</a></p>
+						<p class="title">{{movie.title}} ({{movie.country}})</p>
+						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{movie.iscore}}</p>
+						<p class="runtime">Runtime: {{movie.runtime}}</p>
+						<p class="released">Released: {{movie.released}} | Rated: {{movie.rating}}</p>
+						<p class="websites">Websites: <a> {{movie.imdb}} </a> | <a>{{movie.website}}</a></p>
 
 						<div class="social">
-							<p class="likes"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> %likes%</p>
-							<p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> %dislikes%</p>
+							<p class="likes"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{movie.likes}}</p>
+							<p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> {{movie.dislikes}}</p>
 						</div>
 					</div>
 				</div>
@@ -61,7 +60,7 @@
 		<div class="footer">
 			<div class="container">
 				<a id="github" class="btn btn-lg btn-warning">
-					<i class="bi bi-github me-2"></i>%owner%
+					<i class="bi bi-github me-2">{{owner}}</i>
 				</a>
 			</div>
 		</div>

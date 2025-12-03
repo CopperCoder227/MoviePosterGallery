@@ -155,82 +155,91 @@
       },
       {
             "title": "The Hunger Games: Catching Fire",
-            "iscore": 8.9,
-            "rating": "R",
-            "runtime": 195,
+            "iscore": 76,
+            "rating": "PG-13",
+            "runtime": 146,
             "released": [
-                  2023,
+                  2013,
                   11,
-                  30
+                  18
             ],
             "country": "USA",
             "posters": [
-                  "img/schindlerslist.jpg"
+                  "img/CF/thgcf.jpg",
+                  "img/CF/Finalhungergamepostersmall.webp",
+                  "img/CF/thgcfflame.jpg.jpg"
             ],
-            "imdb": "http://www.imdb.com/title/tt0108052",
-            "website": "https://www.uphe.com/schindlers-list",
-            "likes": 812,
-            "dislikes": 101,
+            "imdb": "https://www.imdb.com/title/tt1951264",
+            "website": "https://www.rottentomatoes.com/m/the_hunger_games_catching_fire",
+            "likes": 108000,
+            "dislikes": 8600,
             "posterindex": 0
       },
       {
             "title": "The Hunger Games: Mockingjay Part 1",
-            "iscore": 8.9,
-            "rating": "R",
-            "runtime": 195,
+            "iscore": 64,
+            "rating": "PG-13",
+            "runtime": 123,
             "released": [
-                  2023,
+                  2014,
                   11,
-                  30
+                  21
             ],
             "country": "USA",
             "posters": [
-                  "img/schindlerslist.jpg"
+                  "img/MJ1/MockingjayPart1Poster3.jpg",
+                  "img/MJ1/thgcfbird.jpg",
+                  "img/MJ1/thgmj.jpg",
+                  "img/MJ1/thgp1.jpg"
             ],
-            "imdb": "http://www.imdb.com/title/tt0108052",
-            "website": "https://www.uphe.com/schindlers-list",
-            "likes": 812,
-            "dislikes": 101,
+            "imdb": "https://www.imdb.com/title/tt1951265/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Hunger%2520Games%253A%2520Mockingjay%2520Part%2520",
+            "website": "https://www.rottentomatoes.com/m/the_hunger_games_mockingjay_part_1",
+            "likes": 42000,
+            "dislikes": 9200,
             "posterindex": 0
       },
       {
             "title": "The Hunger Games: Mockingjay Part 2",
-            "iscore": 8.9,
-            "rating": "R",
-            "runtime": 195,
+            "iscore": 65,
+            "rating": "PG-13",
+            "runtime": 137,
             "released": [
-                  2023,
+                  2015,
                   11,
-                  30
+                  16
             ],
             "country": "USA",
             "posters": [
-                  "img/schindlerslist.jpg"
+                  "img/MJ2/mockingjay2_1.jpg",
+                  "img/MJ2/thgmj2.jpg"'
+                  "img/MJ2/thgmj2fire.jpg"
             ],
-            "imdb": "http://www.imdb.com/title/tt0108052",
-            "website": "https://www.uphe.com/schindlers-list",
-            "likes": 812,
-            "dislikes": 101,
+            "imdb": "https://www.imdb.com/title/tt1951266/?ref_=fn_t_1",
+            "website": "https://www.rottentomatoes.com/m/the_hunger_games_mockingjay_part_2",
+            "likes": 24000,
+            "dislikes": 6400,
             "posterindex": 0
       },
       {
             "title": "The Hunger Games: The Ballad of Songbirds and Snakes",
-            "iscore": 8.9,
-            "rating": "R",
-            "runtime": 195,
+            "iscore": 54,
+            "rating": "PG-13",
+            "runtime": 157,
             "released": [
                   2023,
                   11,
-                  30
+                  17
             ],
             "country": "USA",
             "posters": [
-                  "img/schindlerslist.jpg"
+                  "img/SBAS/sbasposter.jpg",
+                  "img/SBAS/thgbosas.jpg",
+                  "img/SBAS/thgbosasog.jpg"
             ],
-            "imdb": "http://www.imdb.com/title/tt0108052",
-            "website": "https://www.uphe.com/schindlers-list",
-            "likes": 812,
-            "dislikes": 101,
+            "imdb": "https://www.imdb.com/title/tt10545296/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Hunger%2520Games%253A%2520The%2520Ballad%2520of%2520",
+            "website": "https://www.rottentomatoes.com/m/the_hunger_games_the_ballad_of_songbirds_and_snakes",
+            "likes": 13000,
+            "dislikes": 5600,
             "posterindex": 0
       },
       {

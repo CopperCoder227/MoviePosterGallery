@@ -11,8 +11,8 @@
             ],
             "country": "USA",
             "posters": [
-                  "img/FNaF/Five_Nights_At_Freddy's_poster.jpeg",
                   "img/FNaF/FNaFMovieDatePoster.webp",
+                  "img/FNaF/Five_Nights_At_Freddy's_poster.jpeg",
                   "img/FNaF/Freddy.jpg"
             ],
             "imdb": "https://www.imdb.com/title/tt4589218/",
@@ -33,8 +33,8 @@
             ],
             "country": "USA",
             "posters": [
-                  "img/FNaF2/FNaF2Film_TheatricalPoster_29.webp",
                   "img/FNaF2/FNF2.jpg",
+                  "img/FNaF2/FNaF2Film_TheatricalPoster_29.webp",
                   "img/FNaF2/faztalker.jpg"
             ],
             "imdb": "https://www.imdb.com/title/tt30274401/",
@@ -123,7 +123,7 @@
             "posters": [
                   "img/MGMM/Mean_girls_2024_poster.jpg",
                   "img/MGMM/MGM.jpg",
-                  "img/MGMM/2310854-mean-girls.webp"
+                  "img/MGMM/Mean_girls_2024_poster.png"
             ],
             "imdb": "https://www.imdb.com/title/tt11762114/?ref_=nv_sr_srsg_4_tt_7_nm_0_in_0_q_mean%2520girls",
             "website": "https://www.rottentomatoes.com/m/mean_girls_2024",
@@ -144,8 +144,8 @@
             "country": "USA",
             "posters": [
                   "img/THG/HG.jpg",
-                  "img/THG/mtobeiyf.avif",
-                  "img/THG/thg.webp"
+                  "img/THG/thg.webp",
+                  "img/THG/mtobeiyf.avif"
             ],
             "imdb": "https://www.imdb.com/title/tt1392170/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_hunger%2520games",
             "website": "https://www.rottentomatoes.com/m/the_hunger_games",
@@ -187,9 +187,9 @@
             ],
             "country": "USA",
             "posters": [
+                  "img/MJ1/thgmj.jpg",
                   "img/MJ1/MockingjayPart1Poster3.jpg",
                   "img/MJ1/thgcfbird.jpg",
-                  "img/MJ1/thgmj.jpg",
                   "img/MJ1/thgp1.jpg"
             ],
             "imdb": "https://www.imdb.com/title/tt1951265/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Hunger%2520Games%253A%2520Mockingjay%2520Part%2520",
@@ -210,9 +210,9 @@
             ],
             "country": "USA",
             "posters": [
-                  "img/MJ2/mockingjay2_1.jpg",
-                  "img/MJ2/thgmj2.jpg"'
-                  "img/MJ2/thgmj2fire.jpg"
+                  "img/MJ2/thgmj2.jpg",
+                  "img/MJ2/thgmj2fire.jpg",
+                  "img/MJ2/mockingjay2_1.jpg"
             ],
             "imdb": "https://www.imdb.com/title/tt1951266/?ref_=fn_t_1",
             "website": "https://www.rottentomatoes.com/m/the_hunger_games_mockingjay_part_2",
@@ -232,9 +232,9 @@
             ],
             "country": "USA",
             "posters": [
-                  "img/SBAS/sbasposter.jpg",
                   "img/SBAS/thgbosas.jpg",
-                  "img/SBAS/thgbosasog.jpg"
+                  "img/SBAS/thgbosasog.jpg",
+                  "img/SBAS/sbasposter.jpg"
             ],
             "imdb": "https://www.imdb.com/title/tt10545296/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Hunger%2520Games%253A%2520The%2520Ballad%2520of%2520",
             "website": "https://www.rottentomatoes.com/m/the_hunger_games_the_ballad_of_songbirds_and_snakes",

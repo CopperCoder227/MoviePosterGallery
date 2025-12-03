@@ -12,6 +12,7 @@ body {
 .header {
     padding: 15px;
 }
+
 .header h1 {
     display: inline-block;
     color: white;
@@ -30,8 +31,9 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 0;
-    background-color:#dddddd;
+    background-color: #dddddd;
 }
+
 .thumbnail img {
     margin-top: 10px;
     margin-bottom: 30px;
@@ -41,11 +43,11 @@ body {
 
 /* This stylizes your "Poster X of Y" text */
 .imageInfo {
-	color: #959595;
-	font-style: italic;
-	font-size: x-small;
-	float: right;
-	padding-right: 5px;
+    color: #959595;
+    font-style: italic;
+    font-size: x-small;
+    float: right;
+    padding-right: 5px;
 }
 
 /* This stylizes your Title and Rating Text */
@@ -56,6 +58,7 @@ body {
     font-size: 18px;
     font-weight: 800;
 }
+
 .released,
 .rated {
     color: #5d5d5d;
@@ -114,8 +117,8 @@ body {
 }
 
 /* This makes sure your Github Button text is small */
-#github{
-	font-size: small;
+#github {
+    font-size: small;
 }
 
 /* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */

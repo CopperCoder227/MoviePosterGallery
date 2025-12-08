@@ -137,17 +137,17 @@ img {
 
 /* GROUP COLORS */
 .group-0 {
-    background-color: linear-gradient(to right, rgba(188, 135, 81, 0.862), rgba(76, 53, 31, 0.862));
+    background: linear-gradient(to right, rgba(188, 135, 81, 0.862), rgba(76, 53, 31, 0.862));
 }
 
 .group-1 {
-    background-color: linear-gradient(to right, rgba(85, 206, 85, 0.862), rgba(206, 85, 115, 0.862));
+    background: linear-gradient(to right, rgba(85, 206, 85, 0.862), rgba(206, 85, 115, 0.862));
 }
 
 .group-2 {
-    background-color: linear-gradient(to right, rgba(225, 28, 163, 0.862), rgba(249, 132, 212, 0.862), rgba(225, 28, 163, 0.862), );
+    background: linear-gradient(to right, rgba(225, 28, 163, 0.862), rgba(249, 132, 212, 0.862), rgba(225, 28, 163, 0.862), );
 }
 
 .group-3 {
-    background-color: linear-gradient(to bottom, rgba(241, 241, 47, 0.862), rgba(241, 47, 47, 0.862));
+    background: linear-gradient(to bottom, rgba(241, 241, 47, 0.862), rgba(241, 47, 47, 0.862));
 }

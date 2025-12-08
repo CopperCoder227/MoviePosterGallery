@@ -137,17 +137,17 @@ img {
 
 /* GROUP COLORS */
 .group-0 {
-    background-color: rgba(255, 200, 200, 0.2);
+    background-color: rgba(188, 135, 81, 0.862);
 }
 
 .group-1 {
-    background-color: rgba(200, 255, 200, 0.2);
+    background-color: rgba(85, 206, 85, 0.862);
 }
 
 .group-2 {
-    background-color: rgba(200, 200, 255, 0.2);
+    background-color: rgba(225, 28, 163, 0.862);
 }
 
 .group-3 {
-    background-color: rgba(255, 255, 200, 0.2);
+    background-color: rgba(241, 241, 47, 0.862);
 }

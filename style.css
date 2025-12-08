@@ -5,7 +5,11 @@ body {
     padding: 0;
     width: 100%;
     overflow: auto;
-    background-image: url(img/geometry.jpg);
+    background-image: url(img/teetuch-timgasigum-star-space.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center
 }
 
 /* This stylizes the header area */
@@ -20,7 +24,6 @@ body {
 
 /* This stylizes the main page area */
 .main {
-    background-color: #f2f2f2;
     padding: 40px 0;
 }
 
@@ -137,17 +140,17 @@ img {
 
 /* GROUP COLORS */
 .group-0 {
-    background: linear-gradient(to right, rgba(188, 135, 81, 0.862), rgba(76, 53, 31, 0.862));
+    background: linear-gradient(to right, rgba(167, 102, 38, 0.862), #682008);
 }
 
 .group-1 {
-    background: linear-gradient(to right, rgba(85, 206, 85, 0.862), rgba(206, 85, 115, 0.862));
+    background: linear-gradient(to right, rgba(85, 206, 85, 0.862), rgba(206, 85, 152, 0.862));
 }
 
 .group-2 {
-    background: linear-gradient(to right, rgba(225, 28, 163, 0.862), rgba(249, 132, 212, 0.862), rgba(225, 28, 163, 0.862));
+    background: linear-gradient(to right, #fc60b3, rgba(249, 132, 212, 0.862), rgba(225, 28, 163, 0.862));
 }
 
 .group-3 {
-    background: linear-gradient(to bottom, rgba(241, 241, 47, 0.862), rgba(241, 47, 47, 0.862));
+    background: linear-gradient(to bottom, #c7ab6a, #60350b);
 }

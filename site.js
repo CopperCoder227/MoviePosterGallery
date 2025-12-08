@@ -29,9 +29,9 @@ const vue_app = Vue.createApp({
       data() {
             return {
                   movies: [],
-                  title: "IMDB + Cooper's Top StarWars Movies",
+                  title: "IMDB + Cooper's Top Movies",
                   owner: "Cooper",
-                  github: "https://nvlahogiannis12.github.io/NJIT-3_StarterFiles/",
+                  github: "https://coppercoder227.github.io/MoviePosterGallery/",
             };
       },
       computed: {

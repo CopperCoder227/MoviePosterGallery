@@ -1,31 +1,17 @@
-/* SITE.JS: THIS FILE CONTAINS THE METHODS/FUNCTIONS AND VARIABLES CONTROLLING YOUR SITE
-//
-*/
-
-/* NOTE: MOVIES.JSON CONTAINS A LIST OF MOVIES AND ACCOMPANYING METADATA
-//
-//    They are in the following format:
-//    title (String): the name of the movie
-//    iscore (Number): the IMDB score
-//    rating (String): the movie's MPAA rating
-//    released (Array): the release date. Note that the order of the array is:  YYYY, MM, DD
-//    country (String): the country of production
-//    posters (Array): an array of String values with the URL to movie posters (in your img/ directory)
-//    imdb (String): the URL to the corresponding IMDB website
-//    website (String): the URL to the corresponding official website
-//    likes (Number): a fictitious number of user likes
-//    dislikes (Number): a fictitious number of user dislikes
-//    posterindex (Number): a counter to use with the "posters" array to keep track of the current displayed poster index
-//
-// FOR STEP 16, ADD THREE OF YOUR OWN FAVORITE MOVIES WITH METADATA TO THE END OF THE JSON FILE LIST
-*/
-
 const vue_app = Vue.createApp({
       created() {
             fetch("movies.json")
                   .then(response => response.json())
-                  .then(json => this.movies = json);
+                  .then(json => {
+                        // Add a currentPosterIndex for each movie (defaults to 0)
+                        json.forEach(movie => {
+                              movie.currentPosterIndex = 0;
+                        });
+
+                        this.movies = json;
+                  });
       },
+
       data() {
             return {
                   movies: [],
@@ -34,6 +20,7 @@ const vue_app = Vue.createApp({
                   github: "https://coppercoder227.github.io/MoviePosterGallery/",
             };
       },
+
       computed: {
             groupedMovies() {
                   return [
@@ -44,7 +31,40 @@ const vue_app = Vue.createApp({
                   ];
             }
       },
-      methods: {}
+
+      methods: {
+            // Go to next poster for a movie
+            nextPoster(movie) {
+                  if (movie.posters && movie.posters.length > 1) {
+                        movie.currentPosterIndex =
+                              (movie.currentPosterIndex + 1) % movie.posters.length;
+                  }
+            },
+
+            // Go to previous poster for a movie
+            previousPoster(movie) {
+                  if (movie.posters && movie.posters.length > 1) {
+                        movie.currentPosterIndex =
+                              (movie.currentPosterIndex - 1 + movie.posters.length) % movie.posters.length;
+                  }
+            },
+
+            // Return text like "Poster 2 of 3"
+            posterInfo(movie) {
+                  if (!movie.posters || movie.posters.length <= 1) {
+                        return ""; // No need to show anything if only 1 poster
+                  }
+
+                  return `Poster ${movie.currentPosterIndex + 1} of ${movie.posters.length}`;
+            },
+            likeMovie: function (i) {
+                  this.movies[i].likes += 1;
+            },
+
+            dislikeMovie: function (i) {
+                  this.movies[i].dislikes += 1;
+            }
+      }
 });
 
 vue_app.mount("#vue_app");

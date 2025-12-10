@@ -69,7 +69,7 @@ body {
     font-weight: 200;
 }
 
-/* This shapes your IMDB score area */
+/* UPDATED: Score now appears as a circle */
 .score {
     background-color: #39D1B4;
     color: #fff;
@@ -77,12 +77,14 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     font-weight: 200;
     height: 80px;
+    width: 80px;
     line-height: 80px;
     text-align: center;
-    width: 80px;
     position: absolute;
     top: 50px;
     right: 25px;
+    border-radius: 50%;
+    /* ← makes it a circle */
 }
 
 /* This contains your like and dislike buttons */
@@ -113,6 +115,32 @@ body {
     transition: 500ms;
 }
 
+/* --- NEW LIKE & DISLIKE COLORS --- */
+
+/* Likes: green with white text */
+.likes {
+    background-color: #008700;
+    color: #ffffff;
+}
+
+/* Likes hover: light green with dark green text */
+.likes:hover {
+    background-color: #9edd87;
+    color: #008700;
+}
+
+/* Dislikes: red with white text */
+.dislikes {
+    background-color: #f65a5b;
+    color: #ffffff;
+}
+
+/* Dislikes hover: light red with red text */
+.dislikes:hover {
+    background-color: #fdd6d6;
+    color: #f65a5b;
+}
+
 /* This makes sure your Github Button is centered */
 .footer {
     text-align: center;
@@ -129,11 +157,8 @@ img {
     aspect-ratio: 3/4;
 }
 
-/* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
-
 .group-wrapper {
     padding: 15px 0;
-    /* just some vertical spacing */
     margin-bottom: 30px;
     border-radius: 10px;
 }

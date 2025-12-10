@@ -34,7 +34,7 @@ const vue_app = Vue.createApp({
 
       methods: {
             // Go to next poster for a movie
-            nextPoster(movie) {
+            nextPoster: function (movie) {
                   if (movie.posters && movie.posters.length > 1) {
                         movie.currentPosterIndex =
                               (movie.currentPosterIndex + 1) % movie.posters.length;
@@ -42,7 +42,7 @@ const vue_app = Vue.createApp({
             },
 
             // Go to previous poster for a movie
-            previousPoster(movie) {
+            previousPoster: function (movie) {
                   if (movie.posters && movie.posters.length > 1) {
                         movie.currentPosterIndex =
                               (movie.currentPosterIndex - 1 + movie.posters.length) % movie.posters.length;
@@ -50,7 +50,7 @@ const vue_app = Vue.createApp({
             },
 
             // Return text like "Poster 2 of 3"
-            posterInfo(movie) {
+            posterInfo: function (movie) {
                   if (!movie.posters || movie.posters.length <= 1) {
                         return ""; // No need to show anything if only 1 poster
                   }
@@ -63,6 +63,19 @@ const vue_app = Vue.createApp({
 
             dislikeMovie: function (i) {
                   this.movies[i].dislikes += 1;
+            },
+
+            getMonthText: function (dateArray) {
+                  const monthNames = [
+                        "January", "February", "March", "April", "May", "June",
+                        "July", "August", "September", "October", "November", "December"
+                  ];
+                  let monthNumber = monthNames.indexOf(dateArray[0]) + 1;
+                  monthNames[monthNumber - 1] || "Unknown";
+                  let monthIndex = dateArray[1] - 1;
+                  let month = monthNames[monthIndex]
+                  let date = `${month}, ${dateArray[2]}, ${dateArray[1]}`
+                  return date;
             }
       }
 });

@@ -76,7 +76,13 @@ const vue_app = Vue.createApp({
                   let month = monthNames[monthIndex]
                   let date = `${month}, ${dateArray[2]}, ${dateArray[1]}`
                   return date;
-            }
+            },
+            timeText: function (minutes) {
+                  let hours = Math.floor(minutes / 60);
+                  let remainingMinutes = minutes % 60;
+                  let hoursMinutes = `${hours}h ${remainingMinutes}m`;
+                  return hoursMinutes;
+            },
       }
 });
 

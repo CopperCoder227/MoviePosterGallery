@@ -5,8 +5,8 @@
             "rating": "PG-13",
             "runtime": 110,
             "released": [
-                  10,
                   2023,
+                  9,
                   27
             ],
             "country": "USA",
@@ -28,7 +28,7 @@
             "runtime": 104,
             "released": [
                   2025,
-                  12,
+                  11,
                   5
             ],
             "country": "USA",
@@ -50,7 +50,7 @@
             "runtime": 160,
             "released": [
                   2024,
-                  11,
+                  10,
                   22
             ],
             "country": "USA",
@@ -72,7 +72,7 @@
             "runtime": 137,
             "released": [
                   2025,
-                  11,
+                  10,
                   17
             ],
             "country": "USA",
@@ -94,8 +94,8 @@
             "runtime": 97,
             "released": [
                   2004,
-                  4,
-                  9
+                  3,
+                  30
             ],
             "country": "USA",
             "posters": [
@@ -116,8 +116,8 @@
             "runtime": 112,
             "released": [
                   2024,
-                  1,
-                  10
+                  0,
+                  12
             ],
             "country": "USA",
             "posters": [
@@ -138,7 +138,7 @@
             "runtime": 142,
             "released": [
                   2012,
-                  3,
+                  2,
                   12
             ],
             "country": "USA",
@@ -160,14 +160,14 @@
             "runtime": 146,
             "released": [
                   2013,
-                  11,
+                  10,
                   18
             ],
             "country": "USA",
             "posters": [
                   "img/CF/thgcf.jpg",
                   "img/CF/Finalhungergamepostersmall.webp",
-                  "img/CF/thgcfflame.jpg.jpg"
+                  "img/CF/thgcfflame.jpg"
             ],
             "imdb": "https://www.imdb.com/title/tt1951264",
             "website": "https://www.rottentomatoes.com/m/the_hunger_games_catching_fire",
@@ -182,7 +182,7 @@
             "runtime": 123,
             "released": [
                   2014,
-                  11,
+                  10,
                   21
             ],
             "country": "USA",
@@ -205,7 +205,7 @@
             "runtime": 137,
             "released": [
                   2015,
-                  11,
+                  10,
                   16
             ],
             "country": "USA",
@@ -227,7 +227,7 @@
             "runtime": 157,
             "released": [
                   2023,
-                  11,
+                  10,
                   17
             ],
             "country": "USA",
@@ -249,7 +249,7 @@
             "runtime": 0,
             "released": [
                   2026,
-                  11,
+                  10,
                   20
             ],
             "country": "USA",

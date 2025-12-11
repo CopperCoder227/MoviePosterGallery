@@ -3,9 +3,12 @@ const vue_app = Vue.createApp({
             fetch("movies.json")
                   .then(response => response.json())
                   .then(json => {
-                        // Add a currentPosterIndex for each movie (defaults to 0)
+
+                        // Add missing properties safely
                         json.forEach(movie => {
                               movie.currentPosterIndex = 0;
+                              movie.likes = movie.likes || 0;
+                              movie.dislikes = movie.dislikes || 0;
                         });
 
                         this.movies = json;
@@ -17,7 +20,7 @@ const vue_app = Vue.createApp({
                   movies: [],
                   title: "IMDB + Cooper's Top Movies",
                   owner: "Cooper",
-                  github: "https://coppercoder227.github.io/MoviePosterGallery/",
+                  github: "https://coppercoder227.github.io/MoviePosterGallery/"
             };
       },
 
@@ -33,48 +36,48 @@ const vue_app = Vue.createApp({
       },
 
       methods: {
-            posterClick: function (i) {
-                  this.movies[i].posterindex += 1;
-                  if (this.movies[i].posterindex >= this.movies[i].posters.length) {
-                        this.movies[i].posterindex = 0;
+            // ⭐ Computes the correct index in this.movies
+            getGlobalIndex(groupIndex, itemIndex) {
+                  let index = 0;
+
+                  for (let g = 0; g < groupIndex; g++) {
+                        index += this.groupedMovies[g].length;
+                  }
+
+                  return index + itemIndex;
+            },
+
+            posterClick(i) {
+                  const movie = this.movies[i];
+                  movie.currentPosterIndex++;
+
+                  if (movie.currentPosterIndex >= movie.posters.length) {
+                        movie.currentPosterIndex = 0;
                   }
             },
 
-
-            // Return text like "Poster 2 of 3"
-            posterInfo: function (movie) {
-                  if (!movie.posters || movie.posters.length <= 1) {
-                        return ""; // No need to show anything if only 1 poster
-                  }
-
-                  return `Poster ${movie.currentPosterIndex + 1} of ${movie.posters.length}`;
-            },
-            likeMovie: function (i) {
-                  this.movies[i].likes += 1;
+            likeMovie(i) {
+                  this.movies[i].likes++;
             },
 
-            dislikeMovie: function (i) {
-                  this.movies[i].dislikes += 1;
+            dislikeMovie(i) {
+                  this.movies[i].dislikes++;
             },
 
-            getMonthText: function (dateArray) {
+            getMonthText(dateArray) {
                   const monthNames = [
                         "January", "February", "March", "April", "May", "June",
                         "July", "August", "September", "October", "November", "December"
                   ];
-                  let monthNumber = monthNames.indexOf(dateArray[0]) + 1;
-                  monthNames[monthNumber - 1] || "Unknown";
-                  let monthIndex = dateArray[1] - 1;
-                  let month = monthNames[monthIndex]
-                  let date = `${month}, ${dateArray[2]}, ${dateArray[1]}`
-                  return date;
+
+                  return `${monthNames[dateArray[1]]} ${dateArray[2]}, ${dateArray[0]}`;
             },
-            timeText: function (minutes) {
+
+            timeText(minutes) {
                   let hours = Math.floor(minutes / 60);
                   let remainingMinutes = minutes % 60;
-                  let hoursMinutes = `${hours}h ${remainingMinutes}m`;
-                  return hoursMinutes;
-            },
+                  return `${hours}h ${remainingMinutes}m`;
+            }
       }
 });
 

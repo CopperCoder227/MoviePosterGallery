@@ -33,21 +33,13 @@ const vue_app = Vue.createApp({
       },
 
       methods: {
-            // Go to next poster for a movie
-            nextPoster: function (movie) {
-                  if (movie.posters && movie.posters.length > 1) {
-                        movie.currentPosterIndex =
-                              (movie.currentPosterIndex + 1) % movie.posters.length;
+            posterClick: function (i) {
+                  this.movies[i].posterindex += 1;
+                  if (this.movies[i].posterindex >= this.movies[i].posters.length) {
+                        this.movies[i].posterindex = 0;
                   }
             },
 
-            // Go to previous poster for a movie
-            previousPoster: function (movie) {
-                  if (movie.posters && movie.posters.length > 1) {
-                        movie.currentPosterIndex =
-                              (movie.currentPosterIndex - 1 + movie.posters.length) % movie.posters.length;
-                  }
-            },
 
             // Return text like "Poster 2 of 3"
             posterInfo: function (movie) {
